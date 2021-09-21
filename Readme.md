@@ -12,7 +12,8 @@
     export server_port=8000
     ./gradlew -Dspring.profiles.active=production bootRun
 
-####Запуск тестов (Используется БД H2)
+#### Запуск тестов (Используется БД H2)
+
     ./gradlew test
 
 
